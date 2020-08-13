@@ -1,5 +1,6 @@
 @font-face {
     font-family: 'Museo Sans';
+    font-display: swap;
     src: url('../fonts/MuseoSansCyrl-500.eot');
     src: local('MuseoSansCyrl-500'),
         url('../fonts/') format('embedded-opentype'),
@@ -11,6 +12,7 @@
 
 @font-face {
     font-family: 'Museo Sans';
+    font-display: swap;
     src: url('../fonts/MuseoSansCyrl-300.eot');
     src: local('MuseoSansCyrl-300'),
         url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
@@ -22,6 +24,7 @@
 
 @font-face {
     font-family: 'Museo Sans';
+    font-display: swap;
     src: url('../fonts/MuseoSansCyrl-700.eot');
     src: local('MuseoSansCyrl-700'),
         url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
@@ -32,6 +35,7 @@
 }
 @font-face {
   font-family: 'icomoon';
+  font-display: swap;
   src:  url('../fonts/icomoon.eot?m2uep6');
   src:  url('../fonts/icomoon.eot?m2uep6#iefix') format('embedded-opentype'),
     url('../fonts/icomoon.ttf?m2uep6') format('truetype'),
@@ -45,6 +49,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
+  font-display: swap;
   speak: never;
   font-style: normal;
   font-weight: normal;
